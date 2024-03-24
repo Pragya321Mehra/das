@@ -6,7 +6,7 @@
 svg {
     /* filter: drop-shadow(0.1em 0.1em 0.1em rgba(0,0,0,0.5)); */
     height: 1.5em;
-    fill: white;
+    fill: rgb(244, 237, 237);
     width: 1.5em;
 }
 .dashboard{
@@ -15,24 +15,37 @@ svg {
     justify-content:space-between;
     width: 20vw;
     height:100vh ;
-    background-color: #0d86ea;
-    color: white;
+    background-color: #050608;
+    color: rgb(254, 250, 250);
+
+}
+button{
+    height:20px;
+    width: 20px;
+}
+button>img
+{
+    height:20px;
+    width: 20px;
 }
 
 .home ~ div , .home{
     height: 10vh;
     font-size: 4vh;
+    color: white;
 
 }
 a{
-    color: white;
+    color: rgb(227, 215, 215);
     text-decoration: none;
-     text-shadow: 0.1em 0.1em 0.1em 0.1em black ;
+     text-shadow: 0.1em 0.1em 0.1em 0.1em ;
      font-family: 'Times New Roman', Times, serif;
 }
 .container{
     display: flex;
-    
+    height: 100vh;
+    background-color: #010305;
+    color: white;
 }
 input{
     flex-grow: 1;
@@ -52,14 +65,16 @@ input{
     justify-content: space-around;
     /* box-shadow: 0px 0px 30px black; */
     box-shadow:  0px 5px 10px black;
+    color: white;
+    background-color: #010305;
 
 }
 input[type=button]{
     width: 1vw;
     height:5vh ;
-    background-color: #0d86ea;
+    background-color: #010305;
     
-    color: white;
+    color: rgb(223, 213, 213);
     padding: 5px 32px;
 
     margin: 4px 10px;
@@ -73,47 +88,56 @@ input[type=button]{
     row-gap: 10px;
     column-gap: 10px;
          width: 60vw;
-            height: 60vh;
-    background-color: rgb(160, 238, 238);
+            /* height: 50vh; */
+    background-color: rgb(7, 12, 12);
 
 }
 .projects >div{
-    border-left: 5px solid rgba(255, 217, 0, 0.857);
+    border-left: 5px solid rgba(86, 85, 80, 0.857);
     text-align: center;
-    background-color: white;
+    background-color: rgb(10, 8, 8);
 }
 
 .major
 {
     display: flex;
-    background-color: rgb(160, 238, 238);
+    background-color: rgb(12, 14, 14);
+    height: 75vh;
+    overflow: hidden;
 }
 .underannounce{
     display: grid;
    grid-template-columns: 250px;
    row-gap: 10px;
 
-   margin-bottom: 50px;
-   background-color: white;
+   margin-bottom: 40px;
+   background-color: rgb(13, 10, 10);
    border-radius: 10px;
 }
 .undertrend > div{
     display: flex;
     border-bottom:1px solid black;
+    height: 5vh;
 }
 .undertrend{
     display: grid;
     grid-template-columns: 250px;
     row-gap: 10px;
     
-    background-color: white;
+    background-color: rgb(10, 8, 8);
     border-radius: 10px;
+    font-size: 12px;
+}
+.undertrend> div{
+    display: flex;
+    align-items: center;
 }
 .main{
-    background-color: #0d86ea;
+    background-color: #0b0c0d;
 }
 .underannounce >div{
     border-bottom:1px solid black;
+
 
 }
 .side
